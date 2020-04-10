@@ -3,7 +3,7 @@ The final repository, meant for submission on the course website (Geob 472) for 
 
 Group Essay: https://arcg.is/1vfCiW
 
-Map 1: https://lucasvianna10.github.io/Final-Project-Map-1/FinalProjectNEW.html
+Map 1: https://lucasvianna10.github.io/Final-Project-Map-1/FinalProjectNEW.html <img width="1278" alt="Screen Shot 2020-04-10 at 10 35 12 AM" src="https://user-images.githubusercontent.com/59897001/79010514-f6e63380-7b16-11ea-9f2e-d3f57f6349fe.png">
 
 Map 2:
 
