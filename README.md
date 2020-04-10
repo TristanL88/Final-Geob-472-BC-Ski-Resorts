@@ -7,7 +7,7 @@ Map 1: https://lucasvianna10.github.io/Final-Project-Map-1/FinalProjectNEW.html 
 
 Map 2: https://immmor.github.io/previouscomp/ <img width="1279" alt="Screen Shot 2020-04-10 at 10 40 12 AM" src="https://user-images.githubusercontent.com/59897001/79010851-a6230a80-7b17-11ea-961f-872620f19466.png">
 
-Map 3: https://immmor.github.io/worstbest/ <img width="1280" alt="Screen Shot 2020-04-10 at 10 35 02 AM" src="https://user-images.githubusercontent.com/59897001/79010922-ce126e00-7b17-11ea-94c1-2255d5bf1086.png">
+Map 3: https://immmor.github.io/worstbest/ <img width="1279" alt="Screen Shot 2020-04-10 at 10 41 10 AM" src="https://user-images.githubusercontent.com/59897001/79011022-fc904900-7b17-11ea-8f85-71550c3d1092.png">
 
 Map 4: https://tristanl88.github.io/Map-3-Final-Project/ <img width="1274" alt="Screen Shot 2020-04-10 at 10 25 04 AM" src="https://user-images.githubusercontent.com/59897001/79009915-8be82d00-7b15-11ea-9b0d-f74c0923083c.png">
 
