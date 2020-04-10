@@ -1,0 +1,75 @@
+!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@^5.1.2/dist/aframe-animation-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script>
+      AFRAME.registerComponent("change-opacity-on-hover", {
+        schema: {
+          opacity: { default: "0.8" }
+        },
+
+        init: function() {
+          var data = this.data;
+          var el = this.el; // <a-box>
+          var defaultOpacity = el.getAttribute("material").opacity;
+
+          el.addEventListener("mouseenter", function() {
+            el.setAttribute("opacity", data.opacity);
+          });
+
+          el.addEventListener("mouseleave", function() {
+            el.setAttribute("opacity", defaultOpacity);
+          });
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <a-scene>
+      <a-sky
+        src="https://cdn.glitch.com/9134ba81-e358-487b-8d50-79a15182248d%2Fa56edd1f-4ae2-4283-8c0c-d89503810428_PIA12348_hires.jpg?v=1586379333660"
+      ></a-sky>
+
+      <a-plane
+        rotation="-90 0 0"
+        scale="40 60 1"
+        color="grey"
+        opacity="0.7"
+        change-opacity-on-hover="opacity: 0.5"
+      >
+        <a-animation
+          attribute="position"
+          to="0 5.256 0"
+          from="0 1 0"
+          easing="linear"
+          dur="20000"
+          repeat="indefinite"
+        ></a-animation>
+      </a-plane>
+
+      <a-gltf-model
+        id="Whistler"
+        position="0 0 0"
+        rotation="0 90 0"
+        scale="0.5 1 0.5"
+        src="https://cdn.glitch.com/9134ba81-e358-487b-8d50-79a15182248d%2FMap%203%20%5BWhistler%5D.glb?v=1586378880311"
+      ></a-gltf-model>
+
+      <a-entity
+        light="type: directional; color: #EED; intensity: 3"
+        position="-0.393 2.542 0.935"
+      ></a-entity>
+
+      <a-entity
+        camera="active: true"
+        look-controls
+        wasd-controls
+        position="0 6 0"
+      ></a-entity>
+    </a-scene>
+  </body>
+</html>
